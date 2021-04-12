@@ -125,10 +125,10 @@
                     iview.Message.warning("密码为空");
                     return false;
                 }
-                if (vm.captcha == '') {
-                    iview.Message.warning("验证码为空");
-                    return false;
-                }
+                // if (vm.captcha == '') {
+                //     iview.Message.warning("验证码为空");
+                //     return false;
+                // }
                 var data = "username=" + vm.username + "&password=" + vm.password + "&captcha=" + vm.captcha;
                 $.ajax({
                     type: "POST",

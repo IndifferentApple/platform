@@ -22,7 +22,7 @@ import java.util.Map;
  * @gitee https://gitee.com/fuyang_lipengjun/platform
  * @date 2016年12月4日 下午6:55:53
  */
-@RestController
+@RestController //hehetest
 @RequestMapping("/sys/config")
 public class SysConfigController extends AbstractController {
     @Autowired

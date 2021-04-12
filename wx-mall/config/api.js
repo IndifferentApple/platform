@@ -1,3 +1,4 @@
+//const API_BASE_URL = 'http://192.168.3.3:8080/api/';
 const API_BASE_URL = 'http://localhost:8080/platform-framework/api/';
 module.exports = {
     IndexUrlNewGoods: API_BASE_URL + 'index/newGoods', //新品首发
